@@ -30,3 +30,8 @@ const changeH1Text = function () {
 const changeBackgroundColor = function () {
   document.body.style.backgroundColor = "lightgreen";
 };
+
+const changeFooterAddress = function () {
+  document.getElementById("address").innerText =
+    "Deals Shop - Shop 1, Birmingham, UK";
+};
